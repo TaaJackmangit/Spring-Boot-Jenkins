@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class SpringBootJenkinsApplicationTests {
 	public static Logger logger=LoggerFactory.getLogger(SpringBootJenkinsApplicationTests.class);
 	@Test
-	public void contextLoads() {
+	public  contextLoads() {
 		logger.info("Test case executing....");
 		logger.info("Test case executing AGAIN....");
 		assertEquals(true, true);
